@@ -9,7 +9,7 @@ void draw() {
     line(width*.25+50, height*.25-100,
     width*.5+50, height*.25-40);
   } else if (mouseY < height*.5) {
-    rect(width*5, height*3/8, 100, 100);
+    rect(width*.5, height*3/8, 100, 100);
   } else if (mouseY < height*3/4) {
     rect(width*.5, height*5/8, 100, 100, 20);
   } else {
